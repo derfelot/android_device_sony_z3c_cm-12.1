@@ -7,6 +7,7 @@
 /data		ext4		/dev/block/platform/msm_sdcc.1/by-name/userdata		flags=length=-16384;encryptable=footer
 /data		f2fs		/dev/block/platform/msm_sdcc.1/by-name/userdata		flags=length=-16384;encryptable=footer
 /external_sd	auto		/dev/block/mmcblk1p1	/dev/block/mmcblk1		flags=display="External SD";backup=1
+/sdext		ext4		/dev/block/mmcblk1p2	/dev/block/mmcblk2		flags=display="SDExt";backup=1
 /usb-otg	vfat		/dev/block/sda1	/dev/block/sda				flags=removable;storage;display=USB-OTG
 /recovery	emmc		/dev/block/platform/msm_sdcc.1/by-name/FOTAKernel	flags=display="Recovery";backup=1
 /TA		emmc		/dev/block/platform/msm_sdcc.1/by-name/TA		flags=display="!Trim Area!";backup=1
