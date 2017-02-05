@@ -3,7 +3,9 @@
 /boot		emmc		/dev/block/platform/msm_sdcc.1/by-name/boot
 /system		ext4		/dev/block/platform/msm_sdcc.1/by-name/system		flags=display="system";wipeingui
 /cache		ext4		/dev/block/platform/msm_sdcc.1/by-name/cache
+/cache		f2fs		/dev/block/platform/msm_sdcc.1/by-name/cache
 /data		ext4		/dev/block/platform/msm_sdcc.1/by-name/userdata		flags=length=-16384;encryptable=footer
+/data		f2fs		/dev/block/platform/msm_sdcc.1/by-name/userdata		flags=length=-16384;encryptable=footer
 /external_sd	auto		/dev/block/mmcblk1p1	/dev/block/mmcblk1		flags=display="External SD"
 /usb-otg	vfat		/dev/block/sda1	/dev/block/sda				flags=removable;storage;display=USB-OTG
 /recovery	emmc		/dev/block/platform/msm_sdcc.1/by-name/FOTAKernel	flags=display="Recovery";backup=1
